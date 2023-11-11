@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-right: -5px;
+}
+.containe{
+    background-color: white;
+    width: 100opx;
+    height: 100vh;
+}
+.header-on{
+    margin-top: -5px;
+    width: 97%;
+    height: 55px;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    margin-left: 35px;
+    position: relative;
+    padding: 10px;
+}
+.header-on a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.header-on a:hover{
+    opacity: .6;
+}
+h1{
+    text-align: center;
+    line-height: 700px;
+    font-size: 64px;
+    color: rgb(154, 153, 151);
+    margin-top: -30px;
+}
+.header-left{
+    position: absolute;
+    border: 2px solid gray;
+    background-color: whitesmoke ;
+    width: 70px;
+    height: 100vh;
+    padding: 0 10px;
+    margin-top: -53px;
+    margin-left: -11px;
+    flex-direction: column;
+
+}
+.header-left ul{
+    
+    /* text-decoration: none; */
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 14px;
+    justify-content: center;
+    
+}
+.header-left ul li{
+    margin: 20px 0;
+    text-align: center;
+}
+.header-left ul li a{
+    text-decoration: none; 
+    color: brown;
+    /* font-size: 24px; */   
+}
+.header-left ul li i{
+    font-size: 20px;
+    color: brown;
+    margin-left: 5px;
+}
+/* .header-left ul li #menu-icon{
+    margin-top: -6px;
+    font-size: 30px;
+    background-color: white;
+    margin-left: -10px;
+    text-align: center;
+    padding: 5px 0;
+} */
+
+
